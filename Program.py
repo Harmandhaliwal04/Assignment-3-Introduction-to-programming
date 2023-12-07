@@ -31,11 +31,14 @@ while x!=6:
          else :
              print("Product not found in cart")   
     elif x==4:
-       
-         print(Shoppingcart)
+      print(Shoppingcart)
     elif x==5:
           g=input("Complete purchase(Y/N)")
-          
+          if g=="Y":
+            print("Thank you for your business")
+          else :
+              print("Please Continue Shopping")
+               
           print(Shoppingcart)
     
     
